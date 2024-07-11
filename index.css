@@ -1,0 +1,158 @@
+.header {
+	width: 100%;
+	height: 45em;
+	background-image: url(Автозапчасти/img/фон.jpg);
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+list-style: none;
+    /* margin: 40px 0 5px; */
+    /* padding: 25px 0 5px; */
+    text-align: center;
+    /* background: white; */
+    /* height: 83em; */
+    padding-top: 2em;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: white;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color:  #9d999d;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background:  #9d999d;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+.btn {
+   width: 14em;
+    height: 3em;
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: white;
+    /* margin: auto; */
+    margin-top: 7em;
+    margin-left: 10em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    /* font-size: 2em; */
+    color: white;
+    font-size: 2.25em;
+}
+h1 {
+color: black;
+font-family: "Cambria";
+text-align: center;
+letter-spacing: 0.1em;
+}
+.p, .ul {
+	font-size: 0.85em;
+    color: black;
+    font-family: "Cambria";
+    text-align: center;
+    /* margin-left: 38.375em; */
+    margin-right: 1.7em;
+    
+}
+.about {
+	width: 100%;
+	height: 30em;
+	border-radius: 3px;
+	background-color: white;
+	margin-top: -8em;
+}
+.contact {
+	width: 100%;
+    height: 27.5em;
+    background-color: #2d2e2d;
+    margin-top: -2em;
+    /* padding: 3em 0 3em 3em; */
+    padding-right: 0em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    padding-left: 1em;
+}
+.nom {
+	width: 30em;
+}
+.btn_1 {
+    width: 14.938em;
+    height: 3.75em;
+    background-color: black;
+    color: #f3ecde;
+    font-family: "Cambria";
+    text-align: center;
+    border: 1.87px solid #f3ecde;
+    margin-left: 11em;
+    margin-top: 1em;
+}
+.banner-info-single {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+.banner-info-single {
+    background: white; 
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    /* padding-left: 320px; */
+    /* margin: 44px 0; */
+    /* margin-right: 40px; */
+    margin-left: 623px;
+    margin-top: -297px;
+    width: 119px;
+}
+.face1 {
+	width: 5em;
+    height: 5em;
+    margin-top: 0em;
+}
+.inst {
+	width: 4.6em;
+    height: 4.6em;
+    margin-top: 0.3em;
+}
+.faace {
+	width: 12em;
+    height: 5em;
+    text-align: center;
+    background-color: white;
+    margin-left: 10em;
+}
+h1 {
+    color: white;
+    width: 1080px;
+}
